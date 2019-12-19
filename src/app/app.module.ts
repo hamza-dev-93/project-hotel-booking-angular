@@ -33,7 +33,9 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
 import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatToolbarModule, MatListModule } from '@angular/material';
+import { MatToolbarModule, MatListModule, MatTabsModule } from '@angular/material';
+
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 
@@ -74,7 +76,9 @@ import { MatToolbarModule, MatListModule } from '@angular/material';
     MatButtonModule,
     MatSidenavModule,
     MatToolbarModule,
-    MatListModule
+    MatListModule,
+    FlexLayoutModule,
+    MatTabsModule
 
   ],
   providers: [],
