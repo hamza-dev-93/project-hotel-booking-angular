@@ -27,6 +27,14 @@ import { OffersComponent } from './offers/offers.component';
 import { AuthComponent } from './auth/auth.component';
 import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './navigation/header/header.component';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
+
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule, MatListModule } from '@angular/material';
+
 
 
 
@@ -50,7 +58,11 @@ import { SignupComponent } from './auth/signup/signup.component';
     OffersComponent,
     AuthComponent,
     SigninComponent,
-    SignupComponent
+    SignupComponent,
+    HomeComponent,
+    HeaderComponent,
+    SidenavListComponent,
+    NavtabsComponent
   ],
   imports: [
     BrowserModule,
@@ -59,7 +71,11 @@ import { SignupComponent } from './auth/signup/signup.component';
     MatSliderModule,
     MatBadgeModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    MatListModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

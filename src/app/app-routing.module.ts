@@ -9,6 +9,7 @@ import { WeddingsComponent } from './weddings/weddings.component';
 import { OffersComponent } from './offers/offers.component';
 import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
+import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
@@ -20,7 +21,7 @@ const routes: Routes = [
   { path: 'offeres', component:OffersComponent },
   { path: 'signin', component:SigninComponent },
   { path: 'signup', component:SignupComponent },
-  { path: 'accomodation', component:AccomodationComponent }
+  { path: '', component:HomeComponent }
 
 ];
 
